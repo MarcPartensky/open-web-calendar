@@ -8,4 +8,4 @@ WORKDIR /app
 RUN pip install -U pip
 RUN pip install -r requirements.txt; exit 0
 
-ENTRYPOINT python app.py
+ENTRYPOINT ["python", "/app/app.py"]
