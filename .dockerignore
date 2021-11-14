@@ -1,2 +1,4 @@
 Makefile
 .git/
+Pipfile
+Pipfile.lock
