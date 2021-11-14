@@ -4,5 +4,5 @@ build:
 	docker build . -t marcpartensky/open-web-calendar
 push:
 	docker push marcpartensky/open-web-calendar
-test:
+run:
 	docker run --rm marcpartensky/open-web-calendar
